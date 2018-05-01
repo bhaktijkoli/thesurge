@@ -54,9 +54,9 @@
     </div>
     <div class="loader-text"><h4 class="text-center" id="loader-text"></h4></div>
   </div>
-  
+
     <script>
-        
+
         var r_text = new Array ();
         r_text[0] = "Education is what survives when what has been learned has been forgotten.";
         r_text[1] = "An investment in knowledge pays the best interest.";
@@ -101,7 +101,7 @@
 
             <div class="col-md-8 col-xs-12 nav-wrap">
               <div class="collapse navbar-collapse text-right" id="navbar-collapse">
-                
+
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li class="active">
@@ -110,28 +110,28 @@
                   <li>
                     <a href="#course">Courses</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="#associates">Associates</a>
-                  </li>
+                  </li> -->
                   <li>
                     <a href="#colleges">Colleges</a>
                   </li>
                   <li>
                     <a href="#testimonial">Testimonials</a>
-                  </li> 
+                  </li>
                   <li>
-                  
+
                     <!-- <a href="./connect/" target="_blank">Surge Connect</a>
                   </li> --> <!-- Hiding Surge Connect -->
-                  
+
                   <li>
                     <a href="#contact">Contact</a>
                   </li>
-                  
+
                 </ul>
               </div>
             </div> <!-- end col -->
-            
+
           </div> <!-- end row -->
         </div> <!-- end container -->
       </div> <!-- end navigation -->
@@ -141,7 +141,7 @@
 
 
   <div class="main-wrapper-onepage main oh">
-    
+
      <section class="hero-wrap video-container text-center">
 
       <div class="container container-full-height">
@@ -151,27 +151,27 @@
             </div>
             <div class="overlay"></div>
         </div>
-        
-        
+
+
         <div class="hero-holder">
           <div class="hero-message text-rotator">
-            <h1 class="hero-text"><span class="rotate">Education is what survives when what has been learned has been forgotten, 
-                                                    An investment in knowledge pays the best interest, 
+            <h1 class="hero-text"><span class="rotate">Education is what survives when what has been learned has been forgotten,
+                                                    An investment in knowledge pays the best interest,
                                                     Change is the end result of all true learning,
                                                     Life may not be the party we hoped for. But while we’re here shall we dance?,
                                                     When life hands you lemons. Bust out the tequila and the salt,
                                                     If you obey all the rules you miss all the fun,
                                                     I hear and I forget. I see and I remember. I do and I understand,
                                                     For things we have to learn before doing them. We learn by doing them
-                                                    
+
                                 </span></h1>
-            
+
             <div class="button-holder">
                 <a class="video-play-button lightbox-video mfp-iframe" href="https://www.youtube.com/watch?v=Jcji5HBXJA8">
                   <span></span>
                 </a>
             </div>
-            
+
             <!-- <a href="https://www.youtube.com/watch?v=Jcji5HBXJA8&t=7s" class="mt-30 btn btn-md btn-white lightbox-video mfp-iframe">Play Video</a>-->
           </div>
         </div>
@@ -196,7 +196,7 @@
               For those who innovate -
             </p>
           </div>
-          
+
         </div>
         <div class="row">
             <a href="#services">
@@ -217,7 +217,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 <h5 class="text-center tag-line mt-30">Change Things. Dream Big.</h5>
             </div>
             </a>
-            
+
         </div>
       </div>
     </section> <!-- end intro -->
@@ -225,7 +225,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
  <!-- Courses-->
     <section class="section-wrap" id="course">
         <div class="container">
-            
+
             <div class="row heading">
               <div class="col-md-6 col-md-offset-3 text-center">
                 <h2 class="text-center bottom-line">Courses</h2>
@@ -234,14 +234,14 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
             </div>
 
             <div class="row">
-            
- <!--start Deep learning Card-->           
+
+ <!--start Deep learning Card-->
             <a href="Surge/courses/Advance-Deep-Learning/index.html">
-                <div class="col-md-4 courses">        
+                <div class="col-md-4 courses">
                  <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="course-title">
                       <div class="course-title--overlay"></div>
-                      <h3>Deep Learning</h3>                  
+                      <h3>Deep Learning</h3>
                     </div>
 
                     <div class="course-features">
@@ -256,15 +256,15 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                       </a>
                     </div>
                   </div>
-                </div> 
- <!--end DL Card-->               
-<!-- DATA ANALYTIC CARD-->                
+                </div>
+ <!--end DL Card-->
+<!-- DATA ANALYTIC CARD-->
               <a href="Surge/courses/big-data/index.php">
-                <div class="col-md-4 courses">        
+                <div class="col-md-4 courses">
                   <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="course-title">
                       <div class="course-title--overlay"></div>
-                      <h3>Data Analytics and Machine Learning</h3>                  
+                      <h3>Data Analytics and Machine Learning</h3>
                     </div>
 
                     <div class="course-features">
@@ -279,16 +279,16 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                       </a>
                     </div>
                   </div>
-                </div> 
+                </div>
               </a>
-<!-- END DATA ANALYTIC CARD-->             
-<!-- END STRT ANDROID CARD-->              
+<!-- END DATA ANALYTIC CARD-->
+<!-- END STRT ANDROID CARD-->
               <a href="Surge/courses/android/index.php">
-                <div class="col-md-4 courses">        
+                <div class="col-md-4 courses">
                   <div class="course-col wow fadeInUp course-android" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="course-title">
                       <div class="course-title--overlay"></div>
-                      <h3>Android</h3>                  
+                      <h3>Android</h3>
                     </div>
 
                     <div class="course-features">
@@ -303,20 +303,20 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                       </a>
                     </div>
                   </div>
-                </div> 
+                </div>
 
-  
-              </a> 
+
+              </a>
 <!-- END ANDROID CARD-->
 
             </div>
-            
+
         </div>
     </section>
-    
+
     <!-- Associates -->
-    <section class="section-wrap clients bg-blue" id="associates">
-      <div class="container"> 
+    <!-- <section class="section-wrap clients bg-blue" id="associates">
+      <div class="container">
 
         <div class="row heading">
           <div class="col-md-8 col-md-offset-2">
@@ -338,7 +338,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 associate-logo">
             <img src="img/riidl.png" alt="riidl logo">
           </div>
-          
+
           <!-- associate hide <div class="col-sm-4 associate-logo">
             <img src="img/accenture.png" alt="accenture logo">
           </div>
@@ -348,14 +348,14 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 col-sm-offset-4 associate-logo">
             <img src="img/reliance.png" alt="reliance logo">
           </div> -->
-          
+
         </div>
 
-      </div>      
-    </section> <!-- end clients -->
+      </div>
+    </section> <!-- end clients --> -->
 
     <section class="section-wrap clients " id="colleges">
-      <div class="container"> 
+      <div class="container">
 
         <div class="row heading">
           <div class="col-md-8 col-md-offset-2">
@@ -422,14 +422,14 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         </div>
 
 
-      </div>      
+      </div>
     </section>
 <!-- end Colleges -->
-    
+
 
 <!-- Testimonial Section -->
     <section class="section-wrap testimonial-section bg-dark" id="testimonial">
-      
+
         <div class="row heading">
           <div class="col-md-8 col-md-offset-2">
             <h2 class="text-center bottom-line color-white">Hear what the students have to say</h2>
@@ -442,11 +442,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white"> Purvak Lapsiya:</h3>
                 <h5 class="college-name">KJ Somaiya College of Engineering</h5>
-                <p class="mb-30">Surge is a complete package for engineering student like me, right from attending those interactive session to working on four big live projects and getting internship into exciting companies. It’s a complete paradigm shift for any students in India.</p> 
+                <p class="mb-30">Surge is a complete package for engineering student like me, right from attending those interactive session to working on four big live projects and getting internship into exciting companies. It’s a complete paradigm shift for any students in India.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -454,9 +454,9 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                <img src="img/Person-1.png" alt="Student Image">        
+                <img src="img/Person-1.png" alt="Student Image">
               </div>
-           
+
             </div>
           </div>
         </div>
@@ -464,11 +464,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Shreyans Doshi:</h3>
                 <h5 class="college-name">Winner of Smart India Hackathon, KJ Somaiya College of Engineering</h5>
-                <p class="mb-30">It’s like sometimes you know everything but you need a push into a right direction to address all the right problems that get towards when you go into the future, this course was something like that to me, it changed the way I looked at the problems when they approach me and how I could use programming to solve those problem.</p> 
+                <p class="mb-30">It’s like sometimes you know everything but you need a push into a right direction to address all the right problems that get towards when you go into the future, this course was something like that to me, it changed the way I looked at the problems when they approach me and how I could use programming to solve those problem.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -476,7 +476,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-3.png" alt="Student Image">        
+                <img src="img/Person-3.png" alt="Student Image">
               </div>
 
             </div>
@@ -486,11 +486,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Krina Joshi:</h3>
                 <h5 class="college-name">KJSCE</h5>
-                <p class="mb-30">This Course was completely beneficial for me, 5 out of 5.</p> 
+                <p class="mb-30">This Course was completely beneficial for me, 5 out of 5.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -498,7 +498,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-2.png" alt="Student Image">        
+                <img src="img/Person-2.png" alt="Student Image">
               </div>
 
             </div>
@@ -508,11 +508,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">FAIZANSHAH RAOUF ANSARI:</h3>
                 <h5 class="college-name">VESIT/CMPN First year</h5>
-                <p class="mb-30">It was an Wonderful exploration into Data Science, would definitely suggest this course to my friends and juniors.</p> 
+                <p class="mb-30">It was an Wonderful exploration into Data Science, would definitely suggest this course to my friends and juniors.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -520,7 +520,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-1.png" alt="Student Image">        
+                <img src="img/Person-1.png" alt="Student Image">
               </div>
 
             </div>
@@ -530,11 +530,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">SONIYA SHETTIGAR:</h3>
                 <h5 class="college-name">VESIT/ INST BE</h5>
-                <p class="mb-30">Great course! Great learning overall awesome expirience, keep up team Surge!</p> 
+                <p class="mb-30">Great course! Great learning overall awesome expirience, keep up team Surge!</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -542,7 +542,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-3.png" alt="Student Image">        
+                <img src="img/Person-3.png" alt="Student Image">
               </div>
 
             </div>
@@ -552,11 +552,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Vedant Mistry:</h3>
                 <h5 class="college-name">VESIT/COMP Second year</h5>
-                <p class="mb-30">Properly scheduled classes well planned lectures. </p> 
+                <p class="mb-30">Properly scheduled classes well planned lectures. </p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -564,7 +564,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-2.png" alt="Student Image">        
+                <img src="img/Person-2.png" alt="Student Image">
               </div>
 
             </div>
@@ -574,11 +574,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Snehal Bhagat:</h3>
                 <h5 class="college-name">VESIT</h5>
-                <p class="mb-30">I'm sure all the things I learnt through this course are going to help me a lot in the future. Thank you team Surge.</p> 
+                <p class="mb-30">I'm sure all the things I learnt through this course are going to help me a lot in the future. Thank you team Surge.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -586,7 +586,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-1.png" alt="Student Image">        
+                <img src="img/Person-1.png" alt="Student Image">
               </div>
 
             </div>
@@ -596,12 +596,12 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Aneesh Gunda:</h3>
                 <h5 class="college-name">VESIT</h5>
                 <p class="mb-30">Being from a completely different background of academia, I came looking for some answers for my future education. I'd certainly say that I got those answers and I'd like to pursue machine learning as my subject for my masters degree and for that I'd like to thank
-                Surge for giving this opportunity and of course Mr. Vikramank Singh r for this wonderful opportunity.</p> 
+                Surge for giving this opportunity and of course Mr. Vikramank Singh r for this wonderful opportunity.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -609,7 +609,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-3.png" alt="Student Image">        
+                <img src="img/Person-3.png" alt="Student Image">
               </div>
 
             </div>
@@ -619,11 +619,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Padmaja Kolle:</h3>
                 <h5 class="college-name">VESIT</h5>
-                <p class="mb-30">I thought that the focus of teaching was on explaining the code, which was helpful; Overall, the workshop was pretty helpful.</p> 
+                <p class="mb-30">I thought that the focus of teaching was on explaining the code, which was helpful; Overall, the workshop was pretty helpful.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -631,7 +631,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-2.png" alt="Student Image">        
+                <img src="img/Person-2.png" alt="Student Image">
               </div>
 
             </div>
@@ -641,11 +641,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Krutika Hari Pasalkar:</h3>
                 <h5 class="college-name">VESIT</h5>
-                <p class="mb-30">Through these workshop got an opportunity to learn and understand R programming and python in deep and its use in statistics and analysis.</p> 
+                <p class="mb-30">Through these workshop got an opportunity to learn and understand R programming and python in deep and its use in statistics and analysis.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -653,7 +653,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-1.png" alt="Student Image">        
+                <img src="img/Person-1.png" alt="Student Image">
               </div>
 
             </div>
@@ -663,11 +663,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Sakshi Subedi:</h3>
                 <h5 class="college-name">VESIT/CMPN Second year</h5>
-                <p class="mb-30">It was satisfactory, love the course.</p> 
+                <p class="mb-30">It was satisfactory, love the course.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -675,7 +675,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-3.png" alt="Student Image">        
+                <img src="img/Person-3.png" alt="Student Image">
               </div>
 
             </div>
@@ -685,11 +685,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Vinit Todai:</h3>
                 <h5 class="college-name">KJSCE/COMPS</h5>
-                <p class="mb-30">It was one of the best course I have ever attended.I got a wide exposure to the world of Big Data Analytics,Artificial Intelligence and Machine Learning.</p> 
+                <p class="mb-30">It was one of the best course I have ever attended.I got a wide exposure to the world of Big Data Analytics,Artificial Intelligence and Machine Learning.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -697,7 +697,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-2.png" alt="Student Image">        
+                <img src="img/Person-2.png" alt="Student Image">
               </div>
 
             </div>
@@ -707,11 +707,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Swapnil Nivendkar:</h3>
                 <h5 class="college-name">VJTI</h5>
-                <p class="mb-30">I think coding part was more focus, teaching was really good . Overall I like the initiative, good teaching by Vikramank sir and good dedication by Team Surge.</p> 
+                <p class="mb-30">I think coding part was more focus, teaching was really good . Overall I like the initiative, good teaching by Vikramank sir and good dedication by Team Surge.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -719,7 +719,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-1.png" alt="Student Image">        
+                <img src="img/Person-1.png" alt="Student Image">
               </div>
 
             </div>
@@ -729,11 +729,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Suneel:</h3>
                 <h5 class="college-name">TSEC</h5>
-                <p class="mb-30">The main highlight of the course was the intriguing projects and individual attention that it had to offer. It definitely changed my perspective on programming and Data analytics. Me and my team were very lucky to have Vikramank sir to guide us and help us with the projects and lastly, I am glade team of surge made this course happen.</p> 
+                <p class="mb-30">The main highlight of the course was the intriguing projects and individual attention that it had to offer. It definitely changed my perspective on programming and Data analytics. Me and my team were very lucky to have Vikramank sir to guide us and help us with the projects and lastly, I am glade team of surge made this course happen.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -741,7 +741,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-3.png" alt="Student Image">        
+                <img src="img/Person-3.png" alt="Student Image">
               </div>
 
             </div>
@@ -751,11 +751,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         <div class="item">
           <div class="container">
             <div class="row">
-              
+
               <div class="col-md-8 promo-description">
                 <h3 class="color-white">Aishwarya:</h3>
                 <h5 class="college-name">TSEC</h5>
-                <p class="mb-30">The Data analytics and Machine learning course taught by Vikramank was very well conducted. Practical learning combined with the individual attention ensured a good understanding of the subject. Working on different projects throughout the course that helped in understanding concept of applying them practically. Altogether it was fun way to learn new concepts that we wouldn't have been able to do with our college coursework.</p> 
+                <p class="mb-30">The Data analytics and Machine learning course taught by Vikramank was very well conducted. Practical learning combined with the individual attention ensured a good understanding of the subject. Working on different projects throughout the course that helped in understanding concept of applying them practically. Altogether it was fun way to learn new concepts that we wouldn't have been able to do with our college coursework.</p>
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -763,7 +763,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               </div>
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="img/Person-2.png" alt="Student Image">        
+                <img src="img/Person-2.png" alt="Student Image">
               </div>
 
             </div>
@@ -771,12 +771,12 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         </div>
 
       </div> <!-- end slider -->
-    </section> 
+    </section>
 <!-- end testimonial section -->
-    
+
 <!-- Media -->
     <section class="section-wrap media" id="press">
-      <div class="container"> 
+      <div class="container">
 
         <div class="row heading">
           <div class="col-md-6 col-md-offset-3">
@@ -839,12 +839,12 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
             <img src="img/media/foradian.png" alt="">
           </div>
         </div>
-		
 
-      </div>      
-    </section> 
+
+      </div>
+    </section>
 <!-- end media -->
-          
+
 <!-- Contact -->
     <section class="section-wrap contact" id="contact">
       <div class="container">
@@ -865,7 +865,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 <i class="icon icon-Pointer"></i>
               </div>
               <h6>Address</h6>
-              <p>Riidl, KJ Somaiya, Vidyavihar, 
+              <p>Riidl, KJ Somaiya, Vidyavihar,
               <br>Mumbai, India</p>
             </div> <!-- end address -->
 
@@ -899,7 +899,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 </div>
               </div>
 
-              <input name="subject" id="subject" type="text" placeholder="Subject" required> 
+              <input name="subject" id="subject" type="text" placeholder="Subject" required>
               <textarea name="comment" id="comment" placeholder="Message" required></textarea>
               <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message">
             </form>
@@ -919,11 +919,11 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               <h2>
                <!--  <a href="./career.html" class="color-white footer-link-big">Join Us</a> -->
               </h2>
-            </div>            
+            </div>
           </div>
 
           <div class="col-md-4 ">
-            
+
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
                 <a href="#home" class="color-white">Surge</a>
@@ -953,7 +953,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
               <h2>
                <!-- <a href="#home" class="color-white footer-link-big">Blogs</a> -->
               </h2>
-            </div>            
+            </div>
           </div>
 
         </div>
@@ -965,8 +965,8 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
     </div>
 
   </div> <!-- end main-wrapper -->
-    
-  
+
+
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -1015,7 +1015,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                     player.playVideo();
                  }
               });
-            
+
             }
         </script>
 
