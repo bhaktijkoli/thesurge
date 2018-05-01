@@ -1,0 +1,835 @@
+
+/*Global | Start*/
+
+:root{
+	--white: #fff;
+	--white-100: #fafafa;
+	--grey-200: #EEEEEE;
+	--grey-300: #E0E0E0;
+	--grey-500: #9E9E9E;
+	--grey-700: #616161;
+	--grey-900: #212121;
+	--grey-dark: #121212;
+	--red-accent: #212121;
+}
+
+html{
+	color: var(--grey-dark);
+	overflow-x: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: var(--white);
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-track{
+	background-color: var(--white-100);
+}
+
+body::-webkit-scrollbar{
+	width: 10px;
+	background-color: var(--grey-500);
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: var(--grey-500);
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: "Montserrat",sans-serif;
+	/*font-weight: 900;*/
+	color: var(--grey-dark);
+	text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color: var(--grey-dark);
+}
+
+.responsive-img{
+	margin-bottom: -5px;
+}
+
+
+.custom-head-left{
+	border-left: 4px solid;
+	color: var(--grey-dark);
+	border-color: var(--red-accent);
+	padding-left: 16px;
+	/*animation-name: scale;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-delay: .02s;
+	animation-timing-function: ease-in;*/
+}
+
+.custom-head-right{
+	border-right: 4px solid;
+	color: var(--grey-dark);
+	border-color: var(--red-accent);
+	padding-right: 16px;
+	/*animation-name: scale;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-delay: .02s;
+	animation-timing-function: ease-in;*/
+}
+
+button{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	background-color: var(--white-100);
+	border: 2px var(--white-100) solid;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: var(--grey-900);
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+button:hover{
+	background-color: var(--red-accent);
+	color: var(--white-100);
+	border-color: var(--red-accent);
+	transition-duration: .2s;
+}
+
+.custom-seperator{
+	height: 4px;
+	width: 50px;
+	background-color: var(--red-accent);
+	border: none;
+	border-radius: 2px;	
+}
+
+.anim{
+	height: 4px;
+	width: 100px;
+	background-color: var(--white);
+	border: none;
+	border-radius: 2px;
+	animation: scale 2s infinite;
+}
+
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.custom-para-div{
+	width: 70%;
+	padding: 5px;
+	background-color: var(--grey-700);
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	transition-duration: .2s cubic-bezier(0.4, 0.0, 0.2, 1);
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+	color: var(--white);
+	transition: all 300ms 
+}
+
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*Global | End*/
+
+
+/*Nav | start*/
+
+nav {
+	background: transparent;
+	box-shadow: none;
+	line-height: 80px;
+	height: 80px;
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	overflow: hidden;
+}
+
+nav.sticky{
+	line-height: 60px;
+	height: 60px;
+	background: var(--white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav .brand-logo{
+	height: 100%;
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a img.nav-logo{
+	max-height: 100%;
+	width: auto;
+}
+
+nav a.brand-logo{
+	font-family: 'Raleway', sans-serif;
+}
+
+nav.sticky a p.nav-title{
+	font-family: "Montserrat",sans-serif;
+	/*font-weight: 500;*/
+	position: relative;
+	top: -25%;
+	left: 10px;
+	color: var(--grey-900);
+	letter-spacing: 0.1em;
+	padding: 0;
+	margin: 0;
+}
+
+nav a p.nav-title{
+	font-family: "Montserrat",sans-serif;
+	/*font-weight: 500;*/
+	position: relative;
+	top: -25%;
+	left: 10px;
+	color: var(--white);
+	letter-spacing: 0.1em;
+	padding: 0;
+	margin: 0;
+}
+
+nav a p.nav-title span{
+	color: var(--white);
+}
+
+nav.sticky a p.nav-title span{
+	color: var(--grey-900);
+}
+
+nav ul li a span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav ul li a{
+	color: var(--white-100);
+}
+
+nav.sticky ul li a {
+	color: var(--grey-500);
+}
+
+nav ul li a:hover{
+	background: none;
+	color: var(--grey-700);
+}
+
+nav ul li a span:hover{
+	color: var(--grey-700);
+}
+
+nav ul li a.active{
+	color: var(--grey-500);
+}
+
+nav.sticky ul li a.active{
+	background: none;
+	color: var(--grey-900);
+}
+
+.side-nav-header{
+	height: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.side-nav li a span{
+	font-family: 'Montserrat', sans-serif;
+	color: var(--grey-200);
+}
+
+.side-nav li a span.active{
+	color: var(--grey-dark);	
+}
+
+/*Nav | End*/
+
+
+/*Home Start*/
+
+#home{
+	width: 100%;
+	height: 100vh;
+	/*background-image: url("../assets/landing_img.jpg");*/
+	background-size: cover;	
+}
+
+.home-div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.player_wrapper {
+	position: absolute;
+	top: 0;
+	height:100vh;
+	width:100%;
+	overflow:hidden;
+}
+
+.player_wrapper iframe {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+
+.player_wrapper .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0, 0.5);
+	display: flex;
+	align-items: center;
+	/*rgb(1,87,155)*/
+}
+
+.surge-logo{
+	width: 100px;
+	height: 100px;
+}
+
+.landing-title{
+	margin-top: 60px;
+	color: var(--white-100);
+}
+.countdown-title{
+	color: var(--white-100);
+	font-family: "Raleway", sans-serif;
+/*	font-size: 1.5em;
+*/	text-transform: uppercase;
+	font-weight: 600;
+	width: 100%;
+	letter-spacing: 0.3em;
+}
+
+.countdown-amount{
+	color: var(--white-100);
+	font-family: "Montserrat", sans-serif;
+	/*font-size: 7em;*/
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/* Short Desc Card */
+
+#short-desc{
+	height: 220px;
+	margin-top: -110px;
+}
+
+.material-icons{
+	color: var(--red-accent);
+}
+
+/* About */
+
+.head{
+	
+}
+
+#about{
+	min-height: 50vh;
+	background-color: var(--white);
+}
+
+#about .row {
+	margin-bottom: 0;
+}
+
+.sub{
+	color: #9E9E9E;
+}
+
+.about-sub{
+	color: var(--grey-dark);
+	text-transform: none;
+}
+
+/* Stages */
+
+#stages{
+	/*background-image: url("../assets/stages_bg.png");*/
+	background-color: var(--white);
+}
+
+.stages-divider{
+	width: 100%;
+	height: 20vh;
+	background-color: rgba(24, 255, 255, 0.5); 
+	background-image: url("../assets/stages_divider.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.div-mask{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+}
+
+.stages-img::after{
+	background-color: rgba(255, 28, 63, 0.2);
+}
+
+.stage-row{
+	background-color: var(--white-200);
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.stages-text{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.stages-sub{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+.techtalk-attr{
+	width: 40px;
+	height: 40px;
+	background-color: var(--grey-200);
+	border-radius: 50%;
+	padding: 10px;
+	margin: auto;
+	transition-duration: 0.3s;
+}
+
+.techtalk-attr:hover{
+	background-color: var(--grey-300);
+}
+
+/* Speakers */
+
+
+#speakers{
+	min-height: 100vh;
+	z-index: 20;
+	padding-top: 30px;
+}
+
+.owl-stage{
+	display: flex;
+	height: 600px;
+	padding: 20px 10px;
+}
+
+.container_speaker{
+	max-width: 80%;
+}
+
+.speaker_list{
+	margin-top: 50px;
+}
+
+.speaker_card.card{
+	margin: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+.speaker_card{
+	height: 100%;
+	background-color: var(--white-100);
+	padding-top: 20px;
+	color: var(--grey-dark);
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	cursor: pointer;
+}
+
+.speaker_card:hover{
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+	transform: scale(1.02);
+}
+
+.speaker_card:hover .card-image{
+	/*transform: scale(1.05);*/
+}
+
+.card .card-image{
+	padding-top: 20px;
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.card .card-content{
+	padding-top: 100px;
+}
+
+.card .card-title{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.card .card-desc{
+	font-family: 'Lato', sans-serif;
+}
+
+.card .speaker_img{
+	max-height: 200px;
+	max-width: 200px;	
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 0 10px 30px 0px rgba(0,0,0, 0.3);
+	overflow: hidden;
+	position: relative;
+}
+
+.card .card-image img{
+	width: 100%;
+	height: auto;
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+.card img.social_icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 8px;
+	margin: 5px;
+}
+
+.speaker_card .card-reveal{
+	background-color: var(--white-100);
+}
+
+.speaker_card .card-action{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	color: var(--grey-dark);
+	font-family: "Montserrat", sans-serif;
+/*	font-size: 1.5em;
+*/}
+
+.speaker_card .card-action:hover{
+	/*background-color: rgba(255, 23, 68, 0.5);*/
+	background-color: var(--grey-200);
+	color: var(--grey-dark);
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	background-color: var(--grey-300);
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	background-color: var(--grey-500);	
+}
+
+.owl-item{
+	padding: 0px 10px;
+}
+
+/* Venue */
+
+#venue{
+	height: 70vh;
+	background-color: var(--white); 
+	background-image: url('../assets/venue_1.jpg'); 
+	background-position: right;
+	background-repeat: no-repeat;
+	max-height: 800px;
+}
+
+
+/* Schedule */
+
+#schedule{
+	background-color: var(--white);
+	min-height: 70vh;
+}
+
+.schedule-container{
+	margin-top: 50px;
+}
+
+#day1{
+	border: none;
+}
+
+.tabs{
+	background-color: var(--white);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+	background-color: var(--white);
+}
+
+.tabs .tab a{
+	transition: background-color 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.tabs .indicator{
+	background-color: var(--red-accent);
+}
+
+.collapsible{
+	border: none;
+	margin-top: 20px;
+	box-shadow: none;
+}
+
+.collapsible-header{
+	border: none;
+	background-color: var(--white);
+}
+
+.collapsible-header:hover{
+	background-color: var(--white-100);	
+}
+
+.collapsible-header-time{
+	background-color: var(--white-100);
+	/*border-bottom: 2px var(--red-accent) solid;*/
+}
+
+.collapsible-header-desc{
+	/*border-bottom: 2px var(--red-accent) solid;*/
+	margin-bottom: -2px;
+}
+
+.collapsible-body{
+	border: none;
+	background-color: var(--white);
+	/*border-bottom: 2px var(--red-accent) solid;*/
+	padding: 0px 1rem;
+}
+
+.collapsible-body-venue{
+	background-color: var(--white);
+	border-left: 2px solid var(--red-accent);
+	margin-bottom: 10px;
+}
+
+/* Companies */
+
+marquee ul{
+	display: flex;
+}
+
+.logo-container{
+	height: 180px;
+	position: relative;
+}
+
+.companies-logo{
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	filter: grayscale();
+	transition-duration: .2s;
+}
+
+.logo-container:hover .companies-logo{
+	filter: none;
+}
+
+.companies-logo-img{
+	height: 70px;
+}
+
+.logo-container:hover .custom-para-div{
+	opacity: 1;
+	transform: translateX(-50%) translateY(20px);
+}
+
+/* Colleges */
+
+#colleges{
+	background-color: var(--white);
+}
+
+/* Tickets */
+
+#buy-tickets{
+	min-height: 70vh;
+	background-color: var(--white);
+	padding: 10px 0px;
+}
+
+.ticket-container .col{
+	padding: 0 0.9rem;
+}
+
+.ticket-container .card{
+	background-color: var(--white-100);
+	color: var(--grey-dark);
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	cursor: pointer;
+	box-shadow: 0, 2px 2px rgba(0,0,0,0.3);
+}
+
+.ticket-container .card:hover{
+	transform: scale(1.03);
+	box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.ticket-container .collection{
+	border-left: none;
+	border-right: none;
+	border: none;
+}
+
+.ticket-container .collection .collection-item{
+	background-color: var(--white-100);
+	border: none;
+}
+
+.ticket-heading{
+/*	font-size: 2.2em;
+*/}
+
+/* Footer */
+
+.page-footer{
+	background-color: var(--white-100);
+}
+
+.page-footer .footer-copyright{
+	background-color: var(--grey-200);
+}
+
+.social-icon{
+	background-color: var(--grey-200);
+	border-radius: 50%;
+	padding: 10px;
+	transition-duration: 0.3s;
+}
+
+.social-icon:hover{
+	background-color: var(--grey-300);
+	
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px){
+	nav .nav-title{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	nav .brand-logo{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 600px){
+
+	.landing-title{
+		/*font-size: 3em;*/
+	}
+
+	.countdown-amount{
+		/*font-size: 5em;*/
+	}
+
+	.owl-stage{
+		padding: 20px 0;
+	}
+
+	.speaker_card:hover{
+		/*box-shadow: none;*/
+		transform: scale(1);
+	}
+
+	#venue{
+		background-position: center;
+	}
+}
+
+/*Animations*/
+
+
+@keyframes scale{
+	0%{
+		transform: scaleX(1);
+	}
+	25%{
+		transform: scaleX(0.3);
+	}
+	50%{
+		transform: rotate(180deg) scaleX(0.3);
+
+	}
+	75%{
+		transform: rotate(180deg) scaleX(0.3);		
+	}
+
+	100%{
+		transform: rotate(180deg) scaleX(1);
+	}
+}
+
+
+
+/*Scrollreveal Classes*/
+
+.sr-slide-up, .sr-slide-down, .sr-tickets, .sr-speakers{
+	visibility: hidden;
+}

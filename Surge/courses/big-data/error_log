@@ -1,0 +1,4 @@
+[24-Aug-2017 19:56:38 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/thesuvjn/public_html/Surge/courses/big-data/register.php on line 129
+[24-Aug-2017 19:56:38 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/thesuvjn/public_html/Surge/courses/big-data/register.php on line 137
+[24-Aug-2017 19:57:29 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/thesuvjn/public_html/Surge/courses/big-data/register.php on line 129
+[24-Aug-2017 19:57:29 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/thesuvjn/public_html/Surge/courses/big-data/register.php on line 137

@@ -1,0 +1,211 @@
+/* -------------------------------- 
+
+        Primary style
+
+-------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, html {
+  overflow-x: hidden;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main {
+    position: relative;
+    z-index: 2;
+    overflow: auto;
+    background: linear-gradient(180deg,#02b3e4 0,#02CCBA 100%);
+    background-size: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.7s;
+    -moz-transition: -moz-transform 0.7s;
+    transition: transform 0.7s;
+    -webkit-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+    -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+    transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+}
+
+.header {
+    padding: 2rem 2.5%
+}
+.header .logo {
+    display: inline;
+}
+.header .logo img {
+    display: inline-block;
+    width: 54px;
+}
+.header nav {
+    text-align: right;
+    display: inline;
+    float: right;
+    padding: 1rem 6rem 0 0
+}
+.header nav a {
+    color: #3c3f4f;
+    font-weight: 700;
+    margin-right: 1rem;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.header nav a:hover {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.header nav .active {
+    color: #fff;
+}
+.header nav .social_links {
+    padding-right: 2rem;
+}
+.header nav .social_links i {
+    font-size: 1.3rem;
+}
+@media only screen and (max-width: 768px) {
+    .header nav {
+        display: none;
+    }
+}
+
+
+
+.wrapper {
+    max-width: 1650px;
+    margin: 0 auto;
+    position: relative;
+}
+#front_page {
+    height: calc(100vh - 30vh);
+    margin-bottom: 20vh;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    align-items: center
+}
+#front_page .main {
+    width: 73%;
+    margin: 1rem 0 0 16.666%;
+}
+#front_page .main .title {
+    font-size: 3.7rem;
+    line-height: 1.35;
+}
+h1 {
+    color: #3c3f4f;
+    font-weight: 400;
+}
+#front_page .main .title span {
+    color: #fff;
+}
+#front_page .main .sub_title {
+    margin: 1rem 0 0 0;
+    color: #fff;
+    max-width: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+@media only screen and (max-width: 1200px) {
+    #front_page .main .title {
+        font-size: 3rem
+    }
+}
+@media only screen and (max-width: 768px) {
+    #front_page .main {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    #front_page .main .title {
+        font-size: 2.5rem
+    }
+    #front_page #front_page_nav a {
+        width: 33.333%
+    }
+    #front_page #front_page_nav a img {
+        padding: 0 20%
+    }
+}
+@media only screen and (max-width: 550px) {
+    #front_page .main .title {
+        font-size: 2.2rem
+    }
+    #front_page .main .sub_title {
+        font-size: 1.2rem
+    }
+    #front_page #front_page_nav a {
+        width: 50%
+    }
+    #front_page #front_page_nav a img {
+        padding: 0 10%
+    }
+}
