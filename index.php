@@ -236,9 +236,9 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
             <div class="row">
 
  <!--start Deep learning Card-->
-            <a href="Surge/courses/Advance-Deep-Learning/index.html">
+            <a href="Surge/courses/Advance-Deep-Learning/">
                 <div class="col-md-4 courses">
-                 <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
+                 <div class="course-col wow fadeInUp course-Advance-Deep-Learning" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="course-title">
                       <div class="course-title--overlay"></div>
                       <h3>Deep Learning</h3>
@@ -259,7 +259,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 </div>
  <!--end DL Card-->
 <!-- DATA ANALYTIC CARD-->
-              <a href="Surge/courses/big-data/index.php">
+              <a href="Surge/courses/big-data/">
                 <div class="col-md-4 courses">
                   <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="course-title">
@@ -274,7 +274,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                     </div>
 
                     <div class="course-button">
-                      <a href="Surge/courses/big-data/index.php">
+                      <a href="Surge/courses/big-data/">
                         <div class="btn btn-lg btn-color">Learn More</div>
                       </a>
                     </div>

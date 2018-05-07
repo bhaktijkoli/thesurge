@@ -1353,22 +1353,23 @@ p {
 }
 
 .course-Advance-Deep-Learning .course-title{
-  background-image: url("../img/big-data.jpg");
+  background-image: url("../img/Advance-Deep-Learning.jpg");
 }
 .course-big-data .course-title{
   background-image: url("../img/big-data.jpg");
 }
-
 .course-android .course-title{
   background-image: url("../img/android.jpg");
 }
 
-.course-big-data .course-title--overlay{
-  background-color: rgba(2,179,228,.7);
+.course-Advance-Deep-Learning .course-title--overlay{
+  background-color: rgba(2,179,228,.5);
 }
-
+.course-big-data .course-title--overlay{
+  background-color: rgba(228, 138, 2,.5);
+}
 .course-android .course-title--overlay{
-  background-color: rgba(2,204,186,.7);
+  background-color: rgba(2,204,186,.5);
 }
 
 .course-title h3 {
