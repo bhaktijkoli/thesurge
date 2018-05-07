@@ -47,7 +47,7 @@
 
 <body data-spy="scroll" data-offset="61" data-target=".navbar-fixed-top">
 
-    
+
   <!-- Preloader -->
   <div class="loader-mask">
     <div class="loader">
@@ -55,9 +55,9 @@
     </div>
     <div class="loader-text"><h4 class="text-center" id="loader-text"></h4></div>
   </div>
-  
+
     <script>
-        
+
         var r_text = new Array ();
         r_text[0] = "Education is what survives when what has been learned has been forgotten.";
         r_text[1] = "An investment in knowledge pays the best interest.";
@@ -102,7 +102,7 @@
 
             <div class="col-md-8 col-xs-12 nav-wrap">
               <div class="collapse navbar-collapse text-right" id="navbar-collapse">
-                
+
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li>
@@ -117,7 +117,7 @@
                 </ul>
               </div>
             </div> <!-- end col -->
-            
+
           </div> <!-- end row -->
         </div> <!-- end container -->
       </div> <!-- end navigation -->
@@ -126,50 +126,43 @@
   </header> <!-- end navigation -->
 
   <div class="main-wrapper-onepage main oh">
-  
-        <section class="hero-wrap text-center" style="background-image: url(../../img/AI1.jpg)">
 
-      <div class="container container-full-height">
-        <div class="hero-holder">
-          <div class="hero-message hero-left">
-            <div class="row main-row">
-                <div class="col-md-6 hero-col">
-                    <h1>Advance Deep Learning</h1>
-                    <br>
-                    <h2 class="color-white">Let's Build a smart Future</h2>
-                    <div class="partners hidden-xs">
-                        <h2 class="">Partners:</h2>
-                        <img src="../../img/fablab.png" alt="Fab Lab">
-                        <img src="../../img/riidl.png" alt="Riidl">
+        <section class="hero-wrap text-center" style="background-image: url(../../img/AI1.jpg)">
+          <div id="particles-js" style="position:absolute;height:100%;width:100%;z-index:1030;"></div>
+          <div class="container container-full-height">
+            <div class="hero-holder">
+              <div class="hero-message hero-left">
+                <div class="row main-row">
+                    <div class="col-md-6 hero-col" style="z-index:1040;">
+                        <h1>Advance Deep Learning</h1>
+                        <br>
+                        <h2 class="color-white">Let's Build a smart Future</h2>
+                        <div class="partners hidden-xs">
+                            <h2 class="">Partners:</h2>
+                            <img src="../../img/fablab.png" alt="Fab Lab">
+                            <img src="../../img/riidl.png" alt="Riidl">
+                        </div>
+                        <div class="buttons-holder mt-30">
+                          <a href="#details" class="btn btn-lg btn-color">Apply Now</a>
+                        </div>
                     </div>
-                    <div class="buttons-holder mt-30">
-                      <a href="#details" class="btn btn-lg btn-color">Apply Now</a>
-                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs hero-text hero-col">
+                        <br>
+                      </br>
+
                 </div>
-                <div class="col-md-6 hidden-sm hidden-xs hero-text hero-col">
-                    <br>
-                    </br>
-                  <!--  <p>Have you ever wondered how Facebook gives you an option to tag your friend? or how google automatically detects spam mails and reduces your burden? or how does the google self driving car works? NetFlix and Youtube recommends the movie and video you’ll  like We'll help you figure out all these answers and find solutions to many such complex problems right from the field of Stock Market to Brain Science.</p>
-<p>This course is about building machine intelligent software with architectures built on some of the most complex machine learning algorithms. You will also learn to build complete end to end web application running on these deep learning algorithms which can be displayed or put to practical use.
-At the end of the workshop you would have completed 4 big projects in Data and Analytics and will have a chance to grab research opportunities / internships in some of the big corporate or Research Institutes in India and abroad.</p>
-<p>
-If you want to sit for your placements, or go for your MS, this is the must skill that should have on your CV/profile.
-This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p>
-                </div>-->
-                
-            </div>
-            </div>
-            <div class="local-scroll">
-              <a href="#details" class="scroll-down">
-                <i class="fa fa-angle-down"></i>
-              </a>
+                </div>
+                <div class="local-scroll">
+                  <a href="#details" class="scroll-down" style="z-index: 1040 !important;">
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
     </section> <!-- end text rotator -->
-    
+
     <!-- Details-->
     <section class="section-wrap" id="details">
         <div class="container">
@@ -196,7 +189,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                         <li>
                           <a href="#tab-four" data-toggle="tab">FAQ</a>
                         </li>
-                        
+
                       </ul> <!-- end tabs -->
 
 
@@ -205,7 +198,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
 
                         <div class="tab-pane fade in active" id="tab-one">
                           <ul>
-                              
+
                                   <ol>
                                       <li>Course Introduction</li>
                                       <li>State of Deep learning in 2018</li>
@@ -213,22 +206,22 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                                       <li>Loss Function and Optimization.</li>
                                       <li>Image Classification.</li>
                                       <li>Convolutional Neural Networks.</li>
-                                 
+
                                       <li><b>Training a Neural Network - I </b> </li>
                                       <li>Installation and Setup</li>
                                       <li><b>Training a Neural Network - II</b></li>
                                       <li>Introduction to TensorFlow</li>
                                       <li>Introduction to PyTorch</li>
                                       <li>TensorFlow v/s PyTorch v/s MXNet v/s Caffe2 v/s Keras</li>
-                                 
+
                                       <li>CNN Architectures</li>
                                       <li>Deep Learning Softwares</li>
                                       <li>Detection and Segmentation</li>
                                       <li>Visualizing and Understanding</li>
                                       <li>Recurrent Neural Networks</li>
                                       <li>RNN, LSTM, GRU</li>
-                                 
-                                 
+
+
                                       <li>Language Modelling</li>
                                       <li>Image/Video captioning</li>
                                       <li>Visual question answering</li>
@@ -242,10 +235,10 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                                       <li>Hard attention</li>
                                        <li>Q-learning and Actor-Critic</li>
                                   </ol>
-                                  
-                                     
-                                      
-                             
+
+
+
+
                           </ul>
                         </div>
 
@@ -263,14 +256,14 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                         </div>
 
                         <div class="tab-pane fade" id="tab-three">
-                            <h4>Course Fee:</h4> 
+                            <h4>Course Fee:</h4>
                             <p><strong>Rs. 30,000/-</strong></p>
 
                             <h4>Avail group concessions</h4>
                             <p><strong>Rs. 27,000/- per head for a group of 4</strong></p>
 
                         </div>
-                        
+
                         <div class="tab-pane fade" id="tab-four">
                           <p>
                             <strong>Q. I don’t know anything about computer programming can I join this course?</strong>
@@ -294,7 +287,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                             <strong>Q. Can you arrange the same course in my college?</strong>
                           </p>
                           <p>
-                            A. Yes, If your college collaborate with us and provide us minimum 40 participants / batch. 
+                            A. Yes, If your college collaborate with us and provide us minimum 40 participants / batch.
                           </p>
                           <p>
                             <strong>Q. Can You readjust the lecture during my term test and Exams?</strong>
@@ -322,11 +315,11 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                           </p>
                         </div>
 
-                      </div> 
+                      </div>
 <!-- end tab content -->
                    </div>
                </div>
-        
+
                <div class="col-md-6">
                 <form id="register-form" action="register.php" method="post">
 
@@ -335,36 +328,36 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                   <input name="contact" id="contact" type="number" placeholder="Contact No.*" required>
                   <input name="college" id="college" type="text" placeholder="College*" required>
                   <input name="branch" id="branch" type="text" placeholder="Branch*" required>
-                  <input name="year" id="year" type="text" placeholder="Year of Study*" required> 
-                  <input name="reference" id="reference" type="text" placeholder="Reference"> 
+                  <input name="year" id="year" type="text" placeholder="Year of Study*" required>
+                  <input name="reference" id="reference" type="text" placeholder="Reference">
                   <input type="submit" class="btn btn-lg btn-color btn-submit" value="Register">
-          
+
                 </form>
                </div>
-           
+
             </div>
-            
+
         </div>
     </section>
-    
+
     <!-- Projects -->
     <section class="section-wrap bg-blue" id="projects">
         <div class="container">
-            
+
             <div class="row heading">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h2 class="text-center bottom-line color-white">Projects</h2>
           </div>
         </div>
-           
+
         <div class="row">
-            
+
             <div class="col-md-4 project-col">
 
                <a href="#" data-toggle="modal" data-target="#CP1">
                 <div class="detail-box course-col pad-top-40">
                   <div class="detail-title block-quote pad-left-40 pad-right-40">
-           <!--Project1 card-->       
+           <!--Project1 card-->
                     <div class="">Project I</div>
                   </div>
                   <div class="project-title pad-left-40 pad-right-40 pad-top-5">
@@ -378,7 +371,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                   </div>
                 </div>
                </a>
-                
+
                 <div class="modal fade" id="CP1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -394,7 +387,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                 </div>
 
               </div> <!--Project1 card-->
-                
+
             <div class="col-md-4 project-col">
 
                 <a href="#" data-toggle="modal" data-target="#CP2">
@@ -414,7 +407,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                     </div>
                   </div>
                 </a>
-                
+
                  <div class="modal fade" id="CP2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -429,14 +422,14 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
                   </div>
                 </div>
 
-              </div> 
+              </div>
 <!--End Project2 card-->
-                       
-                        
+
+
             </div>
-            
+
         </div>
-    </section> 
+    </section>
 
     <!-- Why should I join -->
     <!-- <section class="section-wrap">
@@ -513,7 +506,7 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
         <div class="row">
 
           <div class="col-md-4 col-md-offset-4">
-            
+
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
                 <a href="#home" class="color-white">Surge</a>
@@ -541,14 +534,15 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
     </div>
 
   </div> <!-- end main-wrapper -->
-    
-  
+
+
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="../../js/jquery.min.js"></script>
   <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../../js/plugins.js"></script>
   <script type="text/javascript" src="../../js/matchHeight.js"></script>
   <script type="text/javascript" src="../../js/scripts.js"></script>
+  <script type="text/javascript" src="../../js/particles.min.js"></script>
   <script src="http://www.youtube.com/player_api"></script>
 
   <script>
@@ -556,6 +550,9 @@ This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p
         $(function() {
             $('.project-col').matchHeight();
             $('.detail-box').matchHeight();
+            particlesJS.load('particles-js', './particles.json', function() {
+              console.log('callback - particles.js config loaded');
+            });
         });
 
   </script>
