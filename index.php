@@ -293,12 +293,8 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                         </div>
 
                     </div>
-                </div>
-                <div class="footer">
-                    <div class="social-links text-center">
-                        <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                    <div class="text-center">
+                      <a href="/Surge/courses/Advance-Deep-Learning/" class="btn btn-lg btn-color">Learn more</a>
                     </div>
                 </div>
             </div> <!-- end back panel -->
