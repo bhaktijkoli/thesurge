@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/spacings.css" />
   <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/rotating-card.css" />
 
   <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -236,77 +237,78 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
             <div class="row">
 
  <!--start Deep learning Card-->
-            <a href="Surge/courses/Advance-Deep-Learning/">
-                <div class="col-md-4 courses">
-                 <div class="course-col wow fadeInUp course-Advance-Deep-Learning" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <div class="course-title">
-                      <div class="course-title--overlay"></div>
-                      <h3>Deep Learning</h3>
-                    </div>
-
-                    <div class="course-features">
-                      <ul>
-                       <li>Understand the intuition behind Artificial Neural Networks</li>
-                      </ul>
-                    </div>
-
-                    <div class="course-button">
-                      <a href="Surge/courses/Advance-Deep-Learning/index.php">
-                        <div class="btn btn-lg btn-color">Learn More</div>
-                      </a>
-                    </div>
-                  </div>
+ <div class="col-md-4 col-sm-6">
+     <div class="card-container">
+        <div class="card">
+            <div class="front">
+                <div class="cover">
+                    <img src="../img/Advance-Deep-Learning.jpg"/>
+                    <div class="overlay"></div>
                 </div>
+                <div class="content">
+                    <div class="main">
+                        <h3 class="name" style="margin-top: 20px;margin-bottom:10px">Advanced Deep Learning</h3>
+                        <!-- <p class="profession">CEO</p> -->
+                        <p class="text-center" style="font-size:12px">Understand the intuition behind Artificial Neural Networks. Learn advanced Deep learning concepts like Convolutional Neural Networks, Recurrent Networks, and Generative Adversarial Networks.</p>
+                        <center class="timer" style="margin-top:30px">
+                          <h3 class="col-sm-3">12</br><span>DAYS</span><h3>
+                          <h3 class="col-sm-3">5</br><span>HRS</span><h3>
+                          <h3 class="col-sm-3">32</br><span>MIN</span><h3>
+                          <h3 class="col-sm-3">52</br><span>SEC</span><h3>
+                        </center>
+                    </div>
+                    <!-- <div class="footer">
+                        <i class="fa fa-mail-forward"></i> Auto Rotation
+                    </div> -->
+                </div>
+            </div> <!-- end front panel -->
+            <div class="back">
+                <div class="header">
+                    <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                </div>
+                <div class="content">
+                    <div class="main">
+                        <h4 class="text-center">Job Description</h4>
+                        <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                        <div class="stats-container">
+                            <div class="stats">
+                                <h4>235</h4>
+                                <p>
+                                    Followers
+                                </p>
+                            </div>
+                            <div class="stats">
+                                <h4>114</h4>
+                                <p>
+                                    Following
+                                </p>
+                            </div>
+                            <div class="stats">
+                                <h4>35</h4>
+                                <p>
+                                    Projects
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="social-links text-center">
+                        <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                        <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                        <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                    </div>
+                </div>
+            </div> <!-- end back panel -->
+        </div> <!-- end card -->
+    </div> <!-- end card-container -->
+</div>
  <!--end DL Card-->
 <!-- DATA ANALYTIC CARD-->
-              <a href="Surge/courses/big-data/">
-                <div class="col-md-4 courses">
-                  <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <div class="course-title">
-                      <div class="course-title--overlay"></div>
-                      <h3>Data Analytics and Machine Learning</h3>
-                    </div>
-
-                    <div class="course-features">
-                      <ul>
-                        <li>Discover the insights from Data</li>
-                      </ul>
-                    </div>
-
-                    <div class="course-button">
-                      <a href="Surge/courses/big-data/">
-                        <div class="btn btn-lg btn-color">Learn More</div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </a>
 <!-- END DATA ANALYTIC CARD-->
 <!-- END STRT ANDROID CARD-->
-              <a href="Surge/courses/android/index.php">
-                <div class="col-md-4 courses">
-                  <div class="course-col wow fadeInUp course-android" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <div class="course-title">
-                      <div class="course-title--overlay"></div>
-                      <h3>Android</h3>
-                    </div>
-
-                    <div class="course-features">
-                      <ul>
-                        <li>Learn Java and Start Building Apps</li>
-                      </ul>
-                    </div>
-
-                    <div class="course-button">
-                      <a href="Surge/courses/android/index.php">
-                        <div class="btn btn-lg btn-color">Learn More</div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-
-              </a>
 <!-- END ANDROID CARD-->
 
             </div>
