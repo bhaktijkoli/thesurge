@@ -3510,3 +3510,35 @@ label {
     display: block;
   }
 }
+
+
+/*
+Portfolio Logos
+*/
+.portfolio-logos .logo {
+  border-radius: 80%;
+}
+.portfolio-logos .logo img {
+  filter: grayscale(1);
+}
+.portfolio-logos .logo img:hover {
+  filter: brightness(0) invert(1);
+}
+.portfolio-logos .red:hover {
+  background-color: #F44336;
+}
+.portfolio-logos .yellow:hover{
+  background-color: #FFEB3B;
+}
+.portfolio-logos .blue:hover {
+  background-color: #03A9F4;
+}
+.portfolio-logos .green:hover {
+  background-color: #4CAF50;
+}
+.portfolio-logos .orange:hover {
+  background-color: #FFC107;
+}
+.portfolio-logos .black:hover {
+  background-color: #212121;
+}

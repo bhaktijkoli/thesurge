@@ -354,18 +354,61 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
 
     <section class="section-wrap clients " id="colleges">
       <div class="container">
-
-        <div class="row heading">
-          <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+          <div class="col-sm-4">
             <h2 class="text-center bottom-line ">Our Students</h2>
             <p class="subheading text-center ">Students from all over the country have benefitted from us:</p>
           </div>
+          <div class="col-sm-8">
+            <div class="portfolio-logos row">
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/vesit.png" alt="">
+               </div>
+               <div class="logo col-sm-4 red">
+                 <img src="img/college/hiray.png" alt="">
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/college/vjti.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/kc.png" alt="">
+               </div>
+               <div class="logo col-sm-4 red">
+                 <img src="img/college/kkjsce.png" alt="">
+               </div>
+               <div class="logo col-sm-4 yellow">
+                 <img src="img/college/mhss.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/pune.png" alt="">
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/college/pvpcoe.png" alt="">
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/college/sandanchor.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/tsec.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/umit.png" alt="">
+               </div>
+               <div class="logo col-sm-4 orange">
+                 <img src="img/college/bimtech.png" alt="">
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/college/dbit.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/fta.png" alt="">
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/college/vit.png" alt="">
+               </div>
+            </div>
+          </div>
         </div>
-
-        <div class="row">
-
-        </div>
-
       </div>
     </section>
 <!-- end Colleges -->
