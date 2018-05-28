@@ -363,54 +363,9 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
         </div>
 
         <div class="row">
-          <div id="college_carousel" class="owl-carousel owl-theme">
-            <div class="slide">
-              <img src="img/college/vesit.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/hiray.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/vjti.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/kc.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/kkjsce.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/mhss.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/pune.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/pvpcoe.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/sandanchor.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/tsec.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/umit.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/bimtech.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/dbit.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/fta.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="img/college/vit.png" alt="">
-            </div>
-          </div>
+
         </div>
+
       </div>
     </section>
 <!-- end Colleges -->
@@ -965,18 +920,6 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
 
 
         <script>
-            $(document).ready(function() {
-              $('#college_carousel').owlCarousel({
-                  items:4,
-                  loop:true,
-                  margin:10,
-                  autoPlay:2000,
-                  autoplayTimeout:3000,
-                  autoplayHoverPause:true,
-                  animateIn:'fadeIn',
-                  animateOut:'fadeOut',
-              })
-            });
             if (screen.width >= 800) {
 
               var player;
