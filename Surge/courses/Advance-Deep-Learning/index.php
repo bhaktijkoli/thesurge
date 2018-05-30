@@ -127,10 +127,12 @@
 
   <div class="main-wrapper-onepage main oh">
 
+    <!-- Hero Start-->
         <section class="hero-wrap text-center" style="background-image: url(../../img/AI1.jpg)">
           <div id="particles-js" style="position:absolute;height:100%;width:100%;z-index:1030;"></div>
+          <div id="background-overlay" style="position:absolute;height:100%;width:100%;z-index:1020;background:#00000052"></div>
           <div class="container container-full-height">
-            <div class="hero-holder">
+            <div class="hero-holder text-center">
               <div class="hero-message hero-left">
                 <div class="row main-row">
                     <div class="col-md-6 hero-col" style="z-index:1040;">
@@ -162,6 +164,7 @@
           </div>
 
     </section> <!-- end text rotator -->
+    <!-- Hero End -->
 
     <!-- Details-->
     <section class="section-wrap" id="details">
