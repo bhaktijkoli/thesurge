@@ -363,48 +363,63 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
             <div class="portfolio-logos row">
                <div class="logo col-sm-4 blue">
                  <img src="img/college/vesit.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 red">
                  <img src="img/college/hiray.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 black">
                  <img src="img/college/vjti.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/kc.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 red">
                  <img src="img/college/kkjsce.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 yellow">
                  <img src="img/college/mhss.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/pune.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 black">
                  <img src="img/college/pvpcoe.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 black">
                  <img src="img/college/sandanchor.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/tsec.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/umit.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 orange">
                  <img src="img/college/bimtech.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 black">
                  <img src="img/college/dbit.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/fta.png" alt="">
+                 <div class="overlay"></div>
                </div>
                <div class="logo col-sm-4 blue">
                  <img src="img/college/vit.png" alt="">
+                 <div class="overlay"></div>
                </div>
             </div>
           </div>
