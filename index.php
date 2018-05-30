@@ -780,69 +780,76 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
     <section class="section-wrap media" id="press">
       <div class="container">
 
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center bottom-line">Featured Press</h2>
-          </div>
-        </div>
-
         <div class="row">
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/hindustantimes.png" alt="Hindustan Times">
+          <div class="col-sm-4">
+            <h2 class="text-center bottom-line ">Featured Press</h2>
+            <p class="subheading text-center ">Students from all over the country have benefitted from us:</p>
           </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/iimi.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/bloomberg.png" alt="">
+          <div class="col-sm-8">
+            <div class="portfolio-logos row">
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/hindustantimes.png" alt="Hindustan Times">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 red">
+                 <img src="img/media/iimi.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/media/bloomberg.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/inc42.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 red">
+                 <img src="img/media/your-story.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 yellow">
+                 <img src="img/media/erudio.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/vccircle.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/media/edtech.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/media/tech-aloo.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/media/techinasia.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/mid-day.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/techcircle.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 orange">
+                 <img src="img/media/letsventure.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 black">
+                 <img src="img/media/vccircle_2.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+               <div class="logo col-sm-4 blue">
+                 <img src="img/media/foradian.png" alt="">
+                 <div class="overlay"></div>
+               </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/inc42.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/your-story.png" alt="">
-          </div>
-		      <div class="col-sm-4 media-logo">
-            <img src="img/media/erudio.png" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/vccircle.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/edtech.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/tech-aloo.png" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/techinasia.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/mid-day.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/techcircle.png" alt="">
-          </div>
-        </div>
-		    <div class="row second-row">
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/letsventure.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/vccircle_2.png" alt="">
-          </div>
-          <div class="col-sm-4 media-logo">
-            <img src="img/media/foradian.png" alt="">
-          </div>
-        </div>
-
-
       </div>
     </section>
 <!-- end media -->
