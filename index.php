@@ -356,8 +356,8 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <h2 class="text-center bottom-line ">Our Students</h2>
-            <p class="subheading text-center ">Students from all over the country have benefitted from us:</p>
+            <h2 class="text-left bottom-line2">Our Students</h2>
+            <p class="subheading text-left">Students from all over the country have benefitted from us:</p>
           </div>
           <div class="col-sm-8">
             <div class="portfolio-logos row">
@@ -782,8 +782,8 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
 
         <div class="row">
           <div class="col-sm-4">
-            <h2 class="text-center bottom-line ">Featured Press</h2>
-            <p class="subheading text-center ">Students from all over the country have benefitted from us:</p>
+            <h2 class="text-left bottom-line2">Featured Press</h2>
+            <p class="subheading text-left ">Students from all over the country have benefitted from us:</p>
           </div>
           <div class="col-sm-8">
             <div class="portfolio-logos row">

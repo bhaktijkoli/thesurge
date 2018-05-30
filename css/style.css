@@ -3515,6 +3515,13 @@ label {
 /*
 Portfolio Logos
 */
+.bottom-line2:after {
+    content: "";
+    display: block;
+    width: 48px;
+    border-bottom: 3px solid #dddddd;
+    margin: 15px 0px 15px;
+}
 .portfolio-logos .logo .overlay {
   height: 100%;
   width: 100%;
